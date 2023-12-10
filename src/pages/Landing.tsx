@@ -7,7 +7,7 @@ import { SectionExperienceWorks } from '../components/SectionExperienceWorks';
 import { Switch } from '../components/Switch';
 
 type LandingProps = {
-  toggle(): void;
+  onToggle(): void;
   theme: DefaultTheme;
 };
 

@@ -4,11 +4,11 @@ import IconSun from '/assets/sun.png';
 import { DefaultTheme } from 'styled-components';
 
 type SwitchProps = {
-  toggle(): void;
+  onToggle(): void;
   theme: DefaultTheme;
 };
 
-export function Switch({ toggle: toggleTheme, theme }: SwitchProps) {
+export function Switch({ onToggle: toggleTheme, theme }: SwitchProps) {
   return (
     <S.ContentSwitch onClick={toggleTheme}>
       <img
