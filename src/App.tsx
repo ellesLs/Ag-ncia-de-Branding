@@ -15,7 +15,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Landing toggle={togglTheme} theme={theme} />
+      <Landing onToggle={togglTheme} theme={theme} />
     </ThemeProvider>
   );
 }
