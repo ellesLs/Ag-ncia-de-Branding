@@ -1,4 +1,3 @@
-import { DefaultTheme } from 'styled-components';
 import { Banner } from '../components/Banner';
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
@@ -8,7 +7,6 @@ import { Switch } from '../components/Switch';
 
 type LandingProps = {
   onToggle(): void;
-  theme: DefaultTheme;
 };
 
 export default function Landing(props: LandingProps) {

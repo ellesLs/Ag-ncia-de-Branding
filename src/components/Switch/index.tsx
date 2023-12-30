@@ -1,14 +1,15 @@
 import * as S from './Switch.style';
 import IconMoon from '/assets/moon.png';
 import IconSun from '/assets/sun.png';
-import { DefaultTheme } from 'styled-components';
+import { useTheme } from 'styled-components';
 
 type SwitchProps = {
   onToggle(): void;
-  theme: DefaultTheme;
 };
 
-export function Switch({ onToggle: toggleTheme, theme }: SwitchProps) {
+export function Switch({ onToggle: toggleTheme }: SwitchProps) {
+  const theme = useTheme();
+
   return (
     <S.ContentSwitch onClick={toggleTheme}>
       <img
