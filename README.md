@@ -1,6 +1,6 @@
 # Agência de Branding
 
-# About
+## About
 
 <p align="left">Uma landing page para uma agência de branding</p>
 
