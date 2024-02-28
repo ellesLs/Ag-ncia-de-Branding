@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 
-type useLocalStorageProps = {
+type LocalStorageProps = {
   key: string;
   InitialTheme: string;
 };
 
-export function useDarkModeWithLocalStorage({ key, InitialTheme }: useLocalStorageProps) {
+export function useDarkModeWithLocalStorage({ key, InitialTheme }: LocalStorageProps) {
   const [theme, setTheme] = useState<string>(() => {
     const storageValue = localStorage.getItem(key);
     return storageValue ? JSON.parse(storageValue) : InitialTheme;
