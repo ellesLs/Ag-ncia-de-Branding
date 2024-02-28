@@ -1,8 +1,10 @@
 # Agência de Branding
 
-<p align="center">Uma landing page para uma agência de branding</p>
+# About
 
-<h2 align="center"><a href="https://brandingelles.vercel.app/">See in Live</a></h2>
+<p align="left">Uma landing page para uma agência de branding</p>
+
+<h2 align="left"><a href="https://brandingelles.vercel.app/">See in Live</a></h2>
 
 ## 🛠 Tools
 
